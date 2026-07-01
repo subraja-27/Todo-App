@@ -1,18 +1,62 @@
-React Todo App
+# 📝 React Todo App
 
-A simple task management application built with React that allows users to add, complete, delete, and store tasks using Local Storage.
+A simple and clean task management app built with **React**, where you can add, complete, and delete tasks — with everything saved automatically using **Local Storage**, so your tasks are still there when you refresh the page.
 
-Features
-Add Tasks
-Delete Tasks
-Mark Tasks as Completed
-Local Storage Support
-Task Counter
-Built With
-React
-JavaScript
-CSS
+This project was built as a hands-on way to practice core React concepts like state management, `useEffect`, and working with arrays of objects.
 
-Author
+🔗 **Live Demo:** [https://6a3a62cbc6c11333ce6730ed--meek-boba-a21994.netlify.app/](https://6a3a62cbc6c11333ce6730ed--meek-boba-a21994.netlify.app/)
 
-Subraja S
+## ✨ Features
+
+- ➕ **Add Tasks** — quickly add new tasks to your list
+- ✔️ **Mark as Completed** — toggle tasks between done and not done
+- ❌ **Delete Tasks** — remove tasks you no longer need
+- 💾 **Local Storage Support** — your tasks persist even after refreshing the browser
+- 🔢 **Task Counter** — see the total number of tasks at a glance
+
+## 🛠️ Built With
+
+- [React](https://react.dev/) (v19)
+- [Vite](https://vitejs.dev/) — for fast development and builds
+- JavaScript (ES6+)
+- CSS
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have [Node.js](https://nodejs.org/) installed on your system.
+
+### Installation
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/subraja-27/Todo-App.git
+   ```
+2. Navigate into the project folder
+   ```bash
+   cd Todo-App
+   ```
+3. Install dependencies
+   ```bash
+   npm install
+   ```
+4. Start the development server
+   ```bash
+   npm run dev
+   ```
+5. Open the local URL shown in your terminal (usually `http://localhost:5173`) to view the app in your browser.
+
+## 💡 How It Works
+
+- Tasks are stored in state using the `useState` hook.
+- A `useEffect` hook watches for changes to the task list and automatically saves it to `localStorage`, so your tasks aren't lost on refresh.
+- Each task can be marked complete (with a strikethrough style) or deleted using the action buttons.
+
+## 🙋‍♀️ Author
+
+**Subraja S**
+
+---
+
+⭐ If you found this project helpful, consider giving it a star!
