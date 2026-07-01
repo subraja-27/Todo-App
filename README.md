@@ -27,26 +27,6 @@ This project was built as a hands-on way to practice core React concepts like st
 
 Make sure you have [Node.js](https://nodejs.org/) installed on your system.
 
-### Installation
-
-1. Clone the repository
-   ```bash
-   git clone https://github.com/subraja-27/Todo-App.git
-   ```
-2. Navigate into the project folder
-   ```bash
-   cd Todo-App
-   ```
-3. Install dependencies
-   ```bash
-   npm install
-   ```
-4. Start the development server
-   ```bash
-   npm run dev
-   ```
-5. Open the local URL shown in your terminal (usually `http://localhost:5173`) to view the app in your browser.
-
 ## 💡 How It Works
 
 - Tasks are stored in state using the `useState` hook.
